@@ -3,7 +3,7 @@
 Standalone export of the full MDM2 inhibitor training dataset (SMILES + activity),
 extracted from the manuscript's figure-source-data workbook for GitHub distribution.
 
-## Provenance
+## Descriptions
 
 - SMILES + pACT value: `plots/fig_data_leakfree/fig2_activity.csv` (the canonical, leak-free
   source used to build Fig2 of the manuscript), which is itself derived directly from
@@ -35,10 +35,3 @@ extracted from the manuscript's figure-source-data workbook for GitHub distribut
 
 4863 compounds: 3647 train / 608 val / 608 test.
 
-## Notes
-
-- This file supersedes the `Fig2A_pACT_activity` sheet that was previously embedded in
-  `IM-MDM2I_all_figure_table_data.xlsx`; that sheet was removed from the cleaned
-  `IM-MDM2I_figure_source_data.xlsx` companion workbook to avoid duplicating ~4.9k rows
-  inside a spreadsheet. The full original workbook (with that sheet intact) is preserved
-  as `IM-MDM2I_all_figure_table_data.FULL.xlsx`.

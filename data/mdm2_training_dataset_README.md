@@ -26,7 +26,7 @@ extracted from the manuscript's figure-source-data workbook for GitHub distribut
 | Column | Description |
 |---|---|
 | `SMILES` | Compound structure (ChEMBL `Smiles` field, as used for featurization) |
-| `pACT_Value` | pChEMBL activity value (pIC50/pKi-equivalent, higher = more potent) |
+| `pACT_Value` | pACT activity value (pIC50/pKi-equivalent, higher = more potent) |
 | `Molecule_ChEMBL_ID` | ChEMBL compound identifier |
 | `Molecule_Name` | ChEMBL molecule name, where available (blank for most rows) |
 | `split` | `train` / `val` / `test` assignment used for all ML models in the paper (75/12.5/12.5, seed 42) |
